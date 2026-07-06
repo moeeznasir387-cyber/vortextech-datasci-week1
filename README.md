@@ -1,10 +1,10 @@
 # 🚢 Titanic Dataset Analysis
 
-## 📌 Project Overview
+## 📖 Project Overview
 
 This project was completed as part of my **Data Science & Analytics Internship** at **Vortex Tech**.
 
-The goal of this project was to clean the Titanic dataset, explore the data, and create meaningful visualizations using Python.
+The objective was to clean the Titanic dataset, handle missing values, and perform exploratory data analysis (EDA) using Python.
 
 ---
 
@@ -19,14 +19,14 @@ The goal of this project was to clean the Titanic dataset, explore the data, and
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Google Colab
+- Jupyter Notebook
 
 ---
 
@@ -38,24 +38,37 @@ This project includes:
 - Age Distribution
 - Passenger Class Distribution
 - Fare Distribution
-- Embarked Port Distribution
+- Average Fare by Passenger Class
+- Average Age by Embarkation Port
 
 ---
 
 ## 📈 Key Findings
 
 - Most passengers were male.
-- Most passengers belonged to Third Class.
-- Most passengers were between 20–40 years old.
+- Most passengers traveled in Third Class.
+- The majority of passengers were between 20–40 years old.
 - Southampton (S) was the most common embarkation port.
-- Most passengers paid relatively low fares.
+- First Class passengers paid the highest average fare.
 
 ---
 
-## 📂 Project Files
+## 📂 Repository Structure
 
-- `Titanic_Data_Cleaning_and_Visualization.ipynb` — Complete notebook
-- `README.md` — Project documentation
+```
+vortextech-datasci-week1/
+│
+├── README.md
+└── Titanic_Data_Cleaning_and_Visualization.ipynb
+```
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository.
+2. Open the notebook in Jupyter Notebook or Google Colab.
+3. Run the cells from top to bottom.
 
 ---
 
